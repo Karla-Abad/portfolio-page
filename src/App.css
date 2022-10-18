@@ -1,38 +1,118 @@
+:root {
+  --color-primary: #f0f2f5;
+  --color-secondary: #494849;
+  --color-terciary: #747275;
+  --color-accent--blue: #0b6efd;
+  --color-accent--green: #94f545;
+  --color-accent--red: #f64f43;
+  --color-accent--yellow: #ddf82f;
+  --color-accent--orange: #f67326;
+  --color-accent--purple: #c945f5;
+  --color-body: #414042;
+  --color-body--white: #fff;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+::selection {
+  background: var(--color-terciary);
+  color: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--color-body);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2.2rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+}
+
 .App {
-  text-align: center;
+  max-width: 1200px;
+  margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Icons */
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 0 0 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media screen and (min-width: 768px) {
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin: 0 0 0 10px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/* Logo */
+
+.logo {
+  width: 170px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    width: 300px;
+    height: auto;
+  }
+}
+
+/* Navbar */
+nav {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
 }
