@@ -4,10 +4,8 @@
   --color-terciary: #747275;
   --color-accent--blue: #0b6efd;
   --color-accent--green: #94f545;
+  --color-accent--light-blue: #a9d3f6;
   --color-accent--red: #f64f43;
-  --color-accent--yellow: #ddf82f;
-  --color-accent--orange: #f67326;
-  --color-accent--purple: #c945f5;
   --color-body: #414042;
   --color-body--white: #fff;
 }
@@ -112,7 +110,141 @@ h4 {
 nav {
   align-items: center;
   background: var(--color-secondary);
+  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   padding: 15px;
+}
+
+/* Main */
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+
+article {
+  background: var(--color-body--white);
+  border-radius: 5px;
+  box-shadow: 0 2px 15px rgb(0 0 0 / 25%);
+  padding: 10px;
+}
+
+a {
+  color: var(--color-body);
+  text-decoration: none;
+}
+
+a img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.userInfo {
+  color: var(--color-body--white);
+  background-color: var(--color-terciary);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  font-weight: 600;
+  margin-top: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+.userInfo__content {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.main {
+  background: var(--color-primary);
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  section {
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+/* Profile */
+
+.profile {
+  border-radius: 5px;
+  background: var(--color-terciary);
+  padding: 10px;
+}
+
+.profile__picture {
+  box-shadow: 0 2px 15px rgba(251, 249, 249, 20%);
+  width: 100%;
+  border: 5px solid var(--color-primary);
+  border-radius: 50%;
+}
+
+.profile__description {
+  color: var(--color-body--white);
+}
+
+.badge {
+  border-radius: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-right: 5px;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.badge--primary {
+  background: var(--color-accent--blue);
+  color: #fff;
+}
+
+.badge--secondary {
+  background: var(--color-accent--red);
+  color: #fff;
+}
+
+.skills {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .profile {
+    display: block;
+    grid-row: 1 / span 1;
+    margin-right: 10px;
+  }
+
+  .badge {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .badge {
+    font-size: 1.3rem;
+  }
 }
