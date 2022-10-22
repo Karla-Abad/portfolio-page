@@ -5,10 +5,10 @@ const WeatherApp = () => {
     <article>
       <a href="#">
         <img src={weatherApp} alt="Project Image" />
-        <p>
-          Keep track of enrolled students and teachers for the current school
-          year.
-        </p>
+        <div className="article__content">
+          <h1>7-Day Weather Forecast</h1>
+          <p>Bring your umbrella or sunblock with this 7-Day Forecast.</p>
+        </div>
       </a>
     </article>
   );

@@ -4,8 +4,8 @@ import Profile from "./profile";
 const Main = () => {
   return (
     <div className="main">
-      <Content />
       <Profile />
+      <Content />
     </div>
   );
 };

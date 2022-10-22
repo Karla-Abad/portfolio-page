@@ -5,11 +5,10 @@ const MatchTheWords = () => {
     <article>
       <a href="#">
         <img src={matchTheWords} alt="Project Image" />
-
-        <p>
-          Keep track of enrolled students and teachers for the current school
-          year.
-        </p>
+        <div className="article__content">
+          <h1>Match the Words Game</h1>
+          <p>Test your knowledge with this fun activity and learn new words.</p>
+        </div>
       </a>
     </article>
   );

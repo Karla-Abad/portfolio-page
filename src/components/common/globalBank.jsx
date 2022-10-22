@@ -4,11 +4,13 @@ const GlobalBank = () => {
     <article>
       <a href="#">
         <img src={globalBank} alt="Project Image" />
-
-        <p>
-          Keep track of enrolled students and teachers for the current school
-          year.
-        </p>
+        <div className="article__content">
+          <h1>Responsive Design</h1>
+          <p>
+            Provide responsive designs for your applications with a mobile-first
+            approach.
+          </p>
+        </div>
       </a>
     </article>
   );

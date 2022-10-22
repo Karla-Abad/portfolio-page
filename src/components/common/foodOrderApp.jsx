@@ -4,15 +4,11 @@ const FoodOrderApp = () => {
     <article>
       <a href="#">
         <img src={friendsbook} alt="Project Image" />
-
-        <p>
-          Keep track of enrolled students and teachers for the current school
-          year.
-        </p>
-        <div className="userInfo">
-          <p className="userInfo__content">Login Info:</p>
-          <p className="userInfo__content">User: test@gmail.com</p>
-          <p className="userInfo__content">Password: 11111</p>
+        <div className="article__content">
+          <h1>Food Ordering App</h1>
+          <p>
+            Get your orders in securely and keep record of your order history.
+          </p>
         </div>
       </a>
     </article>

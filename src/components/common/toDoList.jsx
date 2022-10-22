@@ -5,11 +5,13 @@ const ToDoList = () => {
     <article>
       <a href="#">
         <img src={friendsbook} alt="Project Image" />
-
-        <p>
-          Keep track of enrolled students and teachers for the current school
-          year.
-        </p>
+        <div className="article__content">
+          <h1>To-Do List</h1>
+          <p>
+            List all your pending things to-do and avoid forgetting anything
+            important.
+          </p>
+        </div>
       </a>
     </article>
   );
