@@ -1,10 +1,10 @@
-import friendsbook from "../../images/friendsbook.jpg";
+import List from "../../images/toDoList.jpg";
 
 const ToDoList = () => {
   return (
     <article>
-      <a href="#">
-        <img src={friendsbook} alt="Project Image" />
+      <a href="https://master.dgtpfgfawshn4.amplifyapp.com/" target="_blank">
+        <img src={List} alt="Project Image" />
         <div className="article__content">
           <h1>To-Do List</h1>
           <p>

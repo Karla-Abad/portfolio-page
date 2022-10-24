@@ -2,7 +2,7 @@ import globalBank from "../../images/globalBank.jpg";
 const GlobalBank = () => {
   return (
     <article>
-      <a href="#">
+      <a href="https://master.dxih5wzvb70nj.amplifyapp.com/" target="_blank">
         <img src={globalBank} alt="Project Image" />
         <div className="article__content">
           <h1>Responsive Design</h1>
