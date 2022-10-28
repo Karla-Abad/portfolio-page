@@ -8,10 +8,10 @@ import WeatherApp from "./common/weatherApp";
 const Content = () => {
   return (
     <section>
-      <AnchorAcademy />
       <FoodOrderApp />
-      <GlobalBank />
       <ToDoList />
+      <GlobalBank />
+      <AnchorAcademy />
       <MatchTheWords />
       <WeatherApp />
     </section>

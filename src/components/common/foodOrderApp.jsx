@@ -1,9 +1,9 @@
-import friendsbook from "../../images/friendsbook.jpg";
+import burrito from "../../images/burrito.jpg";
 const FoodOrderApp = () => {
   return (
     <article>
-      <a href="#">
-        <img src={friendsbook} alt="Project Image" />
+      <a href="http://34.224.91.149/" target="_blank">
+        <img src={burrito} alt="Project Image" />
         <div className="article__content">
           <h1>Food Ordering App</h1>
           <p>
