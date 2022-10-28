@@ -2,7 +2,7 @@ import anchorAcademy from "../../images/anchorAcademy.jpg";
 const AnchorAcademy = () => {
   return (
     <article>
-      <a href="#">
+      <a href="https://test-1-9657d.web.app/">
         <img src={anchorAcademy} alt="Project Image" />
         <div className="article__content">
           <h1>School Database</h1>
