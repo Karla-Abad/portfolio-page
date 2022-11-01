@@ -8,7 +8,7 @@ const Profile = () => {
         src={profilePic}
         alt="Developer picture"
       />
-      <p className="profile__description">Front-end Developer Miami, FL.</p>
+      <p className="profile__description">Front-end Developer Miami, FL</p>
       <p>
         Turning ideas into easy-to-use applications with modern technologies.
       </p>

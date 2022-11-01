@@ -239,6 +239,8 @@ a img {
 
 .profile__description {
   color: var(--color-terciary);
+  max-width: 18ch;
+  margin: auto;
 }
 
 .badge {
