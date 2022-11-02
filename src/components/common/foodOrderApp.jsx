@@ -2,7 +2,7 @@ import burrito from "../../images/burrito.jpg";
 
 const FoodOrderApp = () => {
   return (
-    <article>
+    <article className="azul">
       <a href="http://34.224.91.149/" target="_blank">
         <img src={burrito} alt="Project Image" />
         <div className="article__content">

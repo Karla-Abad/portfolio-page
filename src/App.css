@@ -156,8 +156,12 @@ article {
 }
 
 article:hover {
-  border: 2px solid rgb(179, 177, 177);
+  border: 2px solid var(--color-accent--blue);
   scale: 1.05;
+}
+
+article:hover h1 {
+  color: var(--color-accent--blue);
 }
 
 .article__content {
