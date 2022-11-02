@@ -3,7 +3,7 @@ const AnchorAcademy = () => {
   return (
     <article>
       <a href="https://test-1-9657d.web.app/">
-        <img src={anchorAcademy} alt="Project Image" />
+        <img src={anchorAcademy} alt="Project Image" target="_blank" />
         <div className="article__content">
           <h1>School Database</h1>
           <p>
