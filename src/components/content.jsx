@@ -9,11 +9,11 @@ const Content = () => {
   return (
     <section>
       <FoodOrderApp />
-      <ToDoList />
+      <MatchTheWords />
       <GlobalBank />
       <AnchorAcademy />
-      <MatchTheWords />
       <WeatherApp />
+      <ToDoList />
     </section>
   );
 };
