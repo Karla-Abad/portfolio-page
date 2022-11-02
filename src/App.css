@@ -134,8 +134,18 @@ nav {
 section {
   display: grid;
   grid-template-columns: 1fr;
-  row-gap: 30px;
+  row-gap: 15px;
   margin-bottom: 30px;
+}
+
+.section__link {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.section__link a {
+  color: var(--color-terciary);
+  opacity: 0.8;
 }
 
 article {
@@ -170,10 +180,22 @@ a img {
   padding: 30px;
 }
 
+.one {
+  grid-row-start: 2;
+}
+
+.three {
+  grid-row-start: 6;
+}
+
+.five {
+  grid-row-start: 10;
+}
+
 @media screen and (min-width: 600px) {
   section {
     column-gap: 45px;
-    row-gap: 45px;
+    row-gap: 15px;
     padding: 0 40px 0 10px;
   }
 
@@ -186,11 +208,15 @@ a img {
 }
 
 @media screen and (min-width: 768px) {
+  article {
+    min-width: 220px;
+  }
+
   section {
-    column-gap: 45px;
+    column-gap: 25px;
     grid-template-columns: 1fr 1fr;
-    row-gap: 45px;
-    padding: 0 40px 0 10px;
+    row-gap: 10px;
+    padding: 0 10px 0 10px;
   }
 
   .main {
@@ -201,14 +227,22 @@ a img {
   }
 
   .article__content {
-    padding: 10px 20px 0;
+    padding: 10px 20px 2px;
+  }
+
+  .three {
+    grid-row-start: 4;
+  }
+
+  .five {
+    grid-row-start: 6;
   }
 }
 
 @media screen and (min-width: 1024px) {
   section {
-    column-gap: 70px;
-    row-gap: 70px;
+    column-gap: 40px;
+    row-gap: 10px;
   }
 
   .main {

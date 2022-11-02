@@ -7,8 +7,8 @@ const AnchorAcademy = () => {
         <div className="article__content">
           <h1>School Database</h1>
           <p>
-            Keep track of enrolled students and teachers for the current school
-            year.
+            MERN stack - Implemented pagination, sorting and filters for easy
+            data management on the client side.
           </p>
         </div>
       </a>

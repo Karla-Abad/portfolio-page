@@ -8,8 +8,8 @@ const GlobalBank = () => {
         <div className="article__content">
           <h1>Responsive Design</h1>
           <p>
-            Provide responsive designs for your applications with a mobile-first
-            approach.
+            Applied HTML and CSS markup languages to build consistent layouts
+            using a mobile-first approach.
           </p>
         </div>
       </a>
