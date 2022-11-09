@@ -333,3 +333,27 @@ a img {
     padding-left: 40px;
   }
 }
+
+/* Video */
+
+.video {
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+}
+
+.video__media {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .video {
+    grid-template-columns: 1fr;
+  }
+
+  .video__media {
+    margin: 20px auto;
+  }
+}

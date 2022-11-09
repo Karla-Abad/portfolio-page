@@ -1,8 +1,10 @@
 import anchorAcademy from "../../images/anchorAcademy.jpg";
+import { Link } from "react-router-dom";
+
 const AnchorAcademy = () => {
   return (
     <article>
-      <a href="https://test-1-9657d.web.app/" target="_blank">
+      <Link to="/video">
         <img src={anchorAcademy} alt="Project Image" />
         <div className="article__content">
           <h1>School Database</h1>
@@ -11,7 +13,7 @@ const AnchorAcademy = () => {
             data management on the client side.
           </p>
         </div>
-      </a>
+      </Link>
     </article>
   );
 };

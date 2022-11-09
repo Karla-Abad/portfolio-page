@@ -9,7 +9,7 @@ const Content = () => {
   return (
     <section>
       <FoodOrderApp />
-      <MatchTheWords />
+      <AnchorAcademy />
       <div className="section__link one">
         <a href="https://github.com/Karla-Abad/305_Burrito.git" target="_blank">
           View Code
@@ -17,7 +17,7 @@ const Content = () => {
       </div>
       <div className="section__link two">
         <a
-          href="https://github.com/Karla-Abad/Match_The_Words_Game.git"
+          href="https://github.com/Karla-Abad/Anchor_Academy.git"
           target="_blank"
         >
           View Code
@@ -25,7 +25,7 @@ const Content = () => {
       </div>
 
       <GlobalBank />
-      <AnchorAcademy />
+      <MatchTheWords />
       <div className="section__link three">
         <a href="https://github.com/Karla-Abad/GlobalBank.git" target="_blank">
           View Code
@@ -34,7 +34,7 @@ const Content = () => {
 
       <div className="section__link four">
         <a
-          href="https://github.com/Karla-Abad/Anchor_Academy.git"
+          href="https://github.com/Karla-Abad/Match_The_Words_Game.git"
           target="_blank"
         >
           View Code
